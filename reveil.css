@@ -1,0 +1,117 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 1.2em;
+}
+
+h1 {text-align:center;}
+h3 {text-align:center;}
+
+div.content{
+  margin-top: 50px;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:justify;
+  font-size: 12pt;
+}
+
+div.navigation{
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#CCCCCC;
+  width:100%;
+}
+div.navigation ul{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+div.navigation li{
+  float:left;
+  display:block;
+  margin-right:20px;
+}
+div.navigation li.right{
+  float:right;
+}
+
+
+div.toc {
+  width: 40em;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:60px;
+  margin-bottom:100px;
+}
+
+div.toc h3{
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+} 
+
+a:hover {
+  color:gray;
+}
+
+li.c1 { margin-left: 0em; }
+li.c2 { margin-left: 20em; }
+li
+{
+  line-height: 1.5em;
+}
+
+li.reset
+{
+  margin-top: -24em;
+}
+
+
+pre {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12pt;
+  line-height: 15px;
+}
+p {
+  text-indent: 2.5em;
+  line-height: 1.25em;
+  margin: 0;
+  text-align: justify;
+}
+
+div.next {
+  text-align:center;
+}
+div.tailpiece {
+  margin-top:50px;
+  margin-bottom:20px;
+  background-position:bottom center;
+  background-image:url(tail2.png);
+  background-repeat:no-repeat;
+  min-width:60px;
+  min-height:16px;
+}
+
+div.endornament {
+  margin-top:50px;
+  margin-bottom:20px;
+  background-position:bottom center;
+  background-image:url(tail1.png);
+  background-repeat:no-repeat;
+  min-width:60px;
+  min-height:70px;
+}
+
+div.chapter{
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+div.footer {
+  margin-top:30px;
+  text-align:center;
+} 
